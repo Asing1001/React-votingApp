@@ -9,7 +9,8 @@
   "main": "server.js",
   "scripts": {
     "start": "babel-node server.js",
-    "watch": "nodemon --exec babel-node -- server.js"
+    "watch": "nodemon --exec babel-node -- server.js",
+    "gulp":"gulp"
   },
   "dependencies": {
     "alt": "^0.17.1",
